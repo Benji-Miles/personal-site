@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 nav {
   background-color: gray;
 }
@@ -11,6 +15,11 @@ footer {
   justify-content: space-around;
 }
 
-.container p {
-  margin: 5;
+ .container p {
+  margin: 5px;
+  text-align: center;
+}
+
+.container button {
+  margin: auto;
 }
