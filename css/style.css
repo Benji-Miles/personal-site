@@ -16,6 +16,10 @@ ul {
   display: flex;
 }
 
+h1 {
+  margin: 0;
+}
+
 li {
   list-style: none;
   margin-left: 30px;
@@ -28,7 +32,8 @@ a {
 }
 
 footer {
-  background-color: gray;
+  background-color: #212A3E;
+  padding: 10px;
 }
 
 .container {
@@ -45,6 +50,11 @@ footer {
   margin: auto;
 }
 
+.copyright {
+  color: #fff;
+  text-align: center;
+}
+
 #that_dom_id {
   position: relative;
  }
@@ -55,4 +65,27 @@ canvas {
   position: fixed;
   top: 0;
   z-index: -10;
+}
+
+.about {
+  padding: 20px;
+}
+
+.projects {
+  padding: 20px;
+  text-align: center;
+}
+
+.projects h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.projects div {
+  text-align: center;
+}
+
+.contact {
+  padding: 20px;
 }
